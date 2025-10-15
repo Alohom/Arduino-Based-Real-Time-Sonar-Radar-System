@@ -26,7 +26,11 @@ Arduino IDE: Upload the .ino sketch to your Arduino.
 
 Processing IDE: Run the .pde sketch to visualize the radar.
 
-⚠ Important: Make sure to select the correct serial port in Processing to match your Arduino connection.
+⚠ Important:
+
+Make sure to select the correct serial port in Processing to match your Arduino connection.
+
+In Processing 4.4.8, you may encounter processing.serial does not exist error because the serial library is not included automatically. It is recommended to use Processing 4.4.7, where the serial library comes pre-installed.
 
 Usage
 
